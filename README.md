@@ -49,7 +49,7 @@ git clone https://github.com/your-username/alexa-insurance-skill.git
 1. In the Alexa Developer Console, navigate to the "Test" tab.
 2. Choose "Skill Testing is enabled in : Devleopment"
 3. Use the simulator to test various sample utterances defined in your interaction model.
-4. Say "quiz game" to invoke the skill
+4. Say "avaya insurance" to invoke the skill
 5. The invocation name can be changed later from "Build" Tab
 
 ### 6. Submit Your Skill for Certification
