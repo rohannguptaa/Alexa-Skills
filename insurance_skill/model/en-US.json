@@ -1,0 +1,178 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "avaya insurance",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": [
+                        "help me",
+                        "whal else can you help me with ",
+                        "help me please"
+                    ]
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": [
+                        "goodbye",
+                        "end session"
+                    ]
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "PolicyNumberIntent",
+                    "slots": [
+                        {
+                            "name": "number",
+                            "type": "AMAZON.NUMBER"
+                        }
+                    ],
+                    "samples": [
+                        "{number}",
+                        "it is {number}",
+                        "my policy number is {number}"
+                    ]
+                },
+                {
+                    "name": "PolicyStatusIntent",
+                    "slots": [],
+                    "samples": [
+                        "policy status",
+                        "what is my policy status",
+                        "check policy status"
+                    ]
+                },
+                {
+                    "name": "FundValueIntent",
+                    "slots": [],
+                    "samples": [
+                        "fund value",
+                        "what is my fund value",
+                        "check my fund value"
+                    ]
+                },
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "NAVValueIntent",
+                    "slots": [],
+                    "samples": [
+                        "what is my net asset value",
+                        "check my Net Asset Value",
+                        "NAV value",
+                        "what is my NAV value",
+                        "check my NAV value"
+                    ]
+                },
+                {
+                    "name": "NoRecieptIntent",
+                    "slots": [],
+                    "samples": [
+                        "no receipt generated",
+                        "policy renewed but reciept not generated",
+                        "reciept not generated",
+                        "my policy is renewed but reciept is not generated"
+                    ]
+                },
+                {
+                    "name": "YesIntent",
+                    "slots": [],
+                    "samples": [
+                        "yes"
+                    ]
+                },
+                {
+                    "name": "NoIntent",
+                    "slots": [],
+                    "samples": [
+                        "no"
+                    ]
+                },
+                {
+                    "name": "GetPremiumDateIntent",
+                    "slots": [],
+                    "samples": [
+                        "when can i renew my policy",
+                        "policy renewal date",
+                        "premium renewal date",
+                        "check premium renewal date",
+                        "premium renew date",
+                        "check my premium renew date",
+                        "what is my premium renew date"
+                    ]
+                },
+                {
+                    "name": "ThankYouIntent",
+                    "slots": [],
+                    "samples": [
+                        "nice",
+                        "ok ",
+                        "thanks",
+                        "well done ",
+                        "thank you"
+                    ]
+                },
+                {
+                    "name": "RenewalPriceIntent",
+                    "slots": [],
+                    "samples": [
+                        "premium renewal price",
+                        "what is the premium renewal price",
+                        "premium renew price",
+                        "check premium renew price",
+                        "policy renewal price",
+                        "what is the policy renewal price",
+                        "check policy renewal price ",
+                        "check renewal price"
+                    ]
+                },
+                {
+                    "name": "NoPolicyNumberIntent",
+                    "slots": [],
+                    "samples": [
+                        "i dont know my policy number",
+                        "i dont have a policy number"
+                    ]
+                },
+                {
+                    "name": "HowAreYouIntent",
+                    "slots": [],
+                    "samples": [
+                        "what is up with you today",
+                        "how are you today",
+                        "how are you doing today",
+                        "how are you"
+                    ]
+                },
+                {
+                    "name": "HelloIntent",
+                    "slots": [],
+                    "samples": [
+                        "hello",
+                        "hi "
+                    ]
+                },
+                {
+                    "name": "NewPolicyIntent",
+                    "slots": [],
+                    "samples": [
+                        "i would like to buy a new policy",
+                        "renew policy",
+                        "new policy",
+                        "buy a new policy"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}
